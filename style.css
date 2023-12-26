@@ -7,11 +7,30 @@ body {
   padding-top: 80px;
 }
 #demo .chat {
-  border: solid 10px #c21d1d;
+  border: solid 1px #1ac3c9;
+  background: #1ac3c9;
   border-radius: 20px;
+  width: 500px;
+  height: 350px;
+}
+#demo .chat .messenger {
+  border: solid 1px white;
+  background: white;
   width: 450px;
-  height: 300px;
+  height: 250px;
+  margin: 20px 0 0 25px;
+  border-radius: 25px;
+}
+#demo .chat .sent {
+  display: flex;
+  justify-items: end;
 }
 #demo .chat h2 {
   border: solid 1px #c21d1d;
+  border-radius: 15px;
+  padding: 10px 0;
+  width: 50px;
+}
+#demo .text input {
+  border: solid 2px #141da0;
 }/*# sourceMappingURL=style.css.map */
