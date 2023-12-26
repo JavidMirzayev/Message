@@ -1,13 +1,17 @@
 body {
-  font-family: 'Dosis', sans-serif;
+  font-family: "Dosis", sans-serif;
   font-weight: 500;
 }
 
-a {
-  color: orange;
+#demo {
+  padding-top: 80px;
 }
-
-a:hover {
-  color: black;
+#demo .chat {
+  border: solid 10px #c21d1d;
+  border-radius: 20px;
+  width: 450px;
+  height: 300px;
 }
-/*# sourceMappingURL=style.css.map */
+#demo .chat h2 {
+  border: solid 1px #c21d1d;
+}/*# sourceMappingURL=style.css.map */
